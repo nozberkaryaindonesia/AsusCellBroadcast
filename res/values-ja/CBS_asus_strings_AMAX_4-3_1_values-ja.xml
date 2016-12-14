@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="att_emergency_alert_title" description="att sku for emergency alert activity title" maxwidth="20">緊急アラート</string>
+<string name="att_presidential_alerts_title" description="att sku for presidential alert preference title" maxwidth="30">大統領警報</string>
+<string name="att_presidential_alerts_summery" description="att sku for presidential alert preference summery" maxwidth="-1">大統領警報は常に提示されます</string>
+<string name="att_extreme_alerts_title" description="att sku for Extreme alert preference title" maxwidth="30">極限アラート</string>
+<string name="att_severe_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">シビアアラート</string>
+<string name="att_amber_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">アンバーアラート</string>
+<string name="att_emergency_alerts_preview_category" description="att sku for emergency alerts preview preference category title" maxwidth="30">緊急アラートのプレビュー</string>
+<string name="att_emergency_alerts_alert_sound_preview_title" description="att sku for emergency alerts sound preview preference title" maxwidth="30">アラート音</string>
+<string name="att_emergency_alerts_alert_vibration_preview_title" description="att sku for emergency alerts vibration preview preference title" maxwidth="30">アラート振動</string>
+</resources>

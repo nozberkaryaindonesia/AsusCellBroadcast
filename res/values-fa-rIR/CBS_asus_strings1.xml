@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. -->
+    <!-- Command name to open a Compose screen; displays in conversation list -->
+    <string name="new_message">"پیام جدید"</string>
+    <!-- Context menu item on an individual message for dialing the sender's phone number -->
+    <string name="menu_call_back">"تماس با <xliff:g id="name">%s</xliff:g>"
+    </string>
+    <!-- Context menu item on an individual message for emailing the sender -->
+    <string name="menu_send_email">"ارسال ایمیل به <xliff:g id="name">%s</xliff:g>"
+    </string>
+    <!-- Menu item for starting a new conversation -->
+    <string name="menu_compose_new">"نوشتن"</string>
+    <!-- Menu shown in the context menu when long pressing on a message when the message contains
+         one or more phone numbers and/or email addresses and the number or email is new to
+         contacts. [CHAR LIMIT=50] -->
+    <string name="menu_add_address_to_contacts">"افزودن <xliff:g id="contactEmailOrNumber">%s</xliff:g> افراد"</string>
+    <!-- Menu item to call the recipient of the conversation on the phone (imperative verb) -->
+    <string name="menu_call">"تماس"</string>
+    <!-- Menu item for search -->
+    <string name="menu_search">"جستجو"</string>
+    <!-- Menu item for debugging - do not localize -->
+    <string name="menu_debug_dump">"رفع اشکال دامپ"</string>
+    <!-- Message that appears on screen while SIM card messages are retrieved -->
+    <string name="refreshing">"تازه سازی\u2026"</string>
+    <!-- Menu item to show received cell broadcasts. [CHAR LIMIT=30] -->
+    <string name="menu_cell_broadcasts">"هشدارهای اضطراری"</string>
+    <!-- Tag appearing on conversations in the conversation list that contain a draft message -->
+    <string name="has_draft">"پیش نویس"</string>
+    <!-- Subject to display in the conversation list if there is no subject -->
+    <string name="no_subject_view">"(بدون موضوع)"</string>
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">"من"</string>
+    <!-- Context menu item on an individual message for viewing an attached slideshow -->
+    <string name="view_slideshow">"مشاهده نمایش اسلاید"</string>
+    <!-- Context menu item on an individual message for viewing message details such as time and date -->
+    <string name="view_message_details">"مشاهده جزئیات"</string>
+    <!-- Context menu item on an individual message for viewing a delivery report -->
+    <string name="view_delivery_report">"مشاهده گزارش"</string>
+    <!-- Context menu item on an individual message for deleting only that message -->
+    <string name="delete_message">"حذف"</string>
+    <!-- Time and date a message is due to expire -->
+    <string name="expire_on">"منقضی در: <xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Abbreviation for "kilobyte" -->
+    <string name="kilobyte">"کیلوبایت"</string>
+    <!-- Dialog box title brought up when warning the user that a message could not be delivered -->
+    <string name="undelivered_msg_dialog_title">"پیام تحویل داده نشده"</string>
+    <!-- Dialog box message indicating that a message could not be delivered, including the time of last attempt -->
+    <string name="undelivered_msg_dialog_body">"ارسال این پیام ممکن نیست.\nتلاش انجام شده: <xliff:g id="message">%s</xliff:g>."</string>
+    <!-- Dialog box message indicating that a message could not be delivered -->
+    <string name="undelivered_sms_dialog_body">"ارسال این پیام ممکن نیست."</string>
+    <!-- Menu item for deleting the entire conversation currently being viewed -->
+    <string name="delete_thread">"حذف رشته"</string>
+    <!-- Context menu item on an individual message for forwarding it to another recipient -->
+    <string name="menu_forward">"پیش روی"</string>
+    <!-- Text of a button appearing for MMS messages that have not yet been downloaded, causing the message
+         to be downloaded (imperative verb) -->
+    <string name="download">"دانلود"</string>
+    <!-- Message displayed in place of the "download message" button once it has been pressed,
+         indicating that the download is in progress -->
+    <string name="downloading">"در حال دانلود"</string>
+    <!-- Formatting for subject displayed inline, prepended to MMS message text -->
+    <string name="inline_subject">"&lt;موضوع: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <!-- Text to display when the actual text is inaccessible due to DRM protection -->
+    <string name="drm_protected_text">"* متن محافظت شده با DRM *"</string>
+    <!-- Error message to display when DRM rights are insufficient to access some data -->
+    <string name="insufficient_drm_rights">"حقوق ناکافی DRM شناسایی شد."</string>
+    <!-- Individual message context menu item -->
+    <string name="copy_message_text">"کپی متن"</string>
+    <!-- Button text on edit slide screen indicating the user wants to finish editing that slide -->
+    <string name="done">"انجام شد"</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide up in the order -->
+    <string name="move_up">"حرکت به بالا"</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide down in the order -->
+    <string name="move_down">"حرکت به پایین"</string>
+    <!-- Menu item in slideshow edit screen for removing the selected slide from the slideshow -->
+    <string name="remove_slide">"حذف اسلاید"</string>
+    <!-- Menu item in slideshow edit screen for adding a new slide to the slideshow -->
+    <string name="add_slide">"افزودن اسلاید"</string>
+    <!-- Text displayed below "Add slide" item in slideshow edit screen -->
+    <string name="add_slide_hint">"برای ایجاد اسلاید جدید لمس کنید."</string>
+    <!-- Menu item in slideshow edit screen for discarding the entire slideshow -->
+    <string name="discard_slideshow">"کنار گذاشتن نمایش اسلاید"</string>
+    <!-- Header of slideshow showing which slide is being displayed -->
+    <string name="slide_show_part">"قسمت <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g>"
+    </string>
+    <!-- Menu item in slide edit screen for removing the text from the slide being edited -->
+    <string name="remove_text">"حذف متن"</string>
+    <!-- Menu item in slide edit screen for adding a picture to the slide being edited -->
+    <string name="add_picture">"افزودن تصویر"</string>
+    <!-- Menu item in slide edit screen for removing the picture from the slide being edited -->
+    <string name="remove_picture">"حذف تصویر"</string>
+    <!-- Menu item in slide edit screen for adding music to the slide being edited -->
+    <string name="add_music">"افزودن موسیقی"</string>
+    <!-- Menu item in slide edit screen for removing the music from the slide being edited -->
+    <string name="remove_music">"حذف موسیقی"</string>
+    <!-- Menu item in slide edit screen for adding a video to the slide being edited -->
+    <string name="add_video">"افزودن ویدئو"</string>
+    <!-- Menu item in slide edit screen for removing the video from the slide being edited -->
+    <string name="remove_video">"حذف ویدئو"</string>
+    <!-- Hint displayed in message recipient text box when starting a new conversation -->
+    <string name="to_hint">"برای"</string>
+    <!-- Hint displayed in subject edit text box when adding a subject -->
+    <string name="subject_hint">"موضوع"</string>
+    <!-- Menu item in conversation screen for attaching something to the message being composed -->
+    <string name="add_attachment">"پیوستن"</string>
+    <!-- Menu item in conversation screen for adding a subject to the message being composed -->
+    <string name="add_subject">"افزودن موضوع"</string>
+    <!-- Menu item in conversation screen for discarding the message currently being composed -->
+    <string name="discard">"کنار گذاشتن"</string>
+    <!-- Button next to an attachment during message composition to view the attachment (imperative verb) -->
+    <string name="view">"نما"</string>
+    <!-- Button next to an attachment during message composition to replace the attachment (imperative verb) -->
+    <string name="replace">"جایگزین سازی"</string>
+    <!-- Button next to an attachment during message composition to remove the attachment (imperative verb) -->
+    <string name="remove">"حذف"</string>
+    <!-- Button in conversation screen for sending the SMS message currently being composed (imperative verb) -->
+    <string name="send">"ارسال"</string>
+    <!-- Text to appear directly below the "Send" text on the SMS/MMS send button. The "MMS" text is on a second line in a smaller font. This is similar to saying "Send (mms)". -->
+    <string name="mms">"MMS"</string>
+    <!-- Text to appear directly below the "Send" text on the MMS send button in case of DSDS. -->
+    <string name="mms1">"MMS1"</string>
+    <string name="mms2">"MMS2"</string>
+    <!-- Menu item in conversation screen for returning to the conversation list -->
+    <string name="all_threads">"تمام رشته ها"</string>
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_compose_text_enter_to_send">"تایپ کردن پیام"</string>
+    <!-- Hint text in message body field when keyboard is hidden -->
+    <string name="open_keyboard_to_compose_message">"بازکردن صفحه کلید برای تایپ پیام"</string>
+    <!-- Toast message while an image is being resized -->
+    <string name="compressing">"تصویر بسیار بزرگ است. در حال فشرده سازی\u2026"</string>
+    <!-- Error message indicating the format for the specified media type (e.g. "picture") is unsupported -->
+    <string name="unsupported_media_format">"فرمت <xliff:g id="name">%1$s</xliff:g> پشتیبانی نمی شود."</string>
+    <!-- Message prompting the user to select a different item; item string as type-appropriate (e.g. "picture") -->
+    <string name="select_different_media">"یک <xliff:g id="name">%1$s</xliff:g> متفاوت دیگری انتخاب کنید."</string>
+    <!-- Message indicating that the message size limit has been reached -->
+    <string name="exceed_message_size_limitation">"به حداکثر اندازه پیام رسیده است."</string>
+    <!-- Message indicating that the message is too big and there is no space to attach a video -->
+    <string name="message_too_big_for_video">"پیام خیلی بزرگ است و امکان پیوست ویدئو نیست."</string>
+    <!-- Error message indicating that the item trying to be attached could not be added -->
+    <string name="failed_to_add_media">"نمی توانید <xliff:g id="name">%1$s</xliff:g> را به پیام خود اضافه کنید."</string>
+    <!-- Error message indicating that the picture being attached and resized could not be resized -->
+    <string name="failed_to_resize_image">"اندازه تصویر تغییر نکرد."</string>
+    <!-- Error message indicating that an image being attached is still too large to send even after resize -->
+    <string name="resize_image_error_information">"تصویر خیلی بزرگ است و ارسال ممکن نیست، حتی اگر تغییر اندازه دهد."</string>
+    <!-- String prepended to forwarded messages to indicate they were forwarded -->
+    <string name="forward_prefix">"هدایت:\u0020"</string>
+    <!-- Dialog message text explaining that a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message_reason">"از پیام شما صرفنظر می شود زیرا گیرندگان معتبری ندارد."</string>
+    <!-- Dialog box title indicating which recipients are invalid when the user tries to send a message with invalid recipients -->
+    <string name="has_invalid_recipient">"گیرنده (های) نامعتبر: &lt;<xliff:g id="name">%1$s</xliff:g>&gt;"</string>
+    <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">"آدرس مقصد نامعتبر است."</string>
+    <!-- While sending a message, this error is expected to be generated when user does not have
+         MMS enabled on his account. [CHAR LIMIT=NONE] -->
+    <string name="service_not_activated">"سرویس در شبکه فعال نشده است."</string>
+    <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_message_not_found">"پیام منقضی شده است یا موجود نیست."</string>
+    <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_network_problem">"به علت اشکال در شبکه ارسال نمی شود."</string>
+    <!-- Dialog message text when the user tries to send a message with invalid recipients -->
+    <string name="invalid_recipient_message">"گیرنده (ها) را اصلاح کنید یا آنها پیام را دریافت نمی کنند."</string>
+    <!-- Dialog box title indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message">"ارسال پیام ممکن نیست"</string>
+    <!-- Dialog message text indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message_reason">"پیام شما گیرنده های معتبری ندارد."</string>
+    <!-- Error message displayed when the user attempts to forward a message with DRM-locked contents -->
+    <string name="cannot_forward_drm_obj">"مورد DRM موجود در پیام هدایت نمی شود."</string>
+    <!-- Brief message that appears when converting a message from SMS to MMS. -->
+    <string name="converting_to_picture_message">"در حال تبدیل به پیام چندرسانه ای\u2026"</string>
+    <!-- Brief message that appears when converting a message from MMS to SMS. -->
+    <string name="converting_to_text_message">"در حال تبدیل به پیام متنی\u2026"</string>
+    <!-- Brief message that appears when the maximum number of slides has been reached -->
+    <string name="cannot_add_slide_anymore">"افزودن اسلایدهای بیشتر امکان پذیر نیست."</string>
+    <!-- Brief message that appears when user tries to add picture to a slide which already has a video. -->
+    <string name="cannot_add_picture_and_video">"افزودن ویدئو و تصویر به یک اسلاید امکان پذیر نیست."</string>
+    <!-- Brief message that appears when the message cannot be saved -->
+    <string name="cannot_save_message">"ذخیره پیام امکان پذیر نیست."</string>
+    <!-- Brief message that appears when a message has automatically been saved as a draft -->
+    <string name="message_saved_as_draft">"پیام به عنوان پیش فرض ذخیره شد."</string>
+    <!-- Brief message that appears when too many recipients have been added -->
+    <string name="too_many_recipients">"پیام تعداد زیادی گیرنده دارد (<xliff:g id="currentCount">%1$s</xliff:g>). محدودیت <xliff:g id="maxLimit">%2$s</xliff:g> گیرنده وجود دارد."</string>
+    <!-- Brief message that appears when too many videos/pictures are imported -->
+    <string name="too_many_attachments">"محدودیت <xliff:g id="maxLimit">%1$s</xliff:g> پیوست وجود دارد. فقط <xliff:g id="currentCount">%2$s</xliff:g> مورد اول افزوده می شوند."</string>
+    <!-- Alert dialog title when adding attachments is taking a while  [CHAR LIMIT=none] -->
+    <string name="adding_attachments_title">"افزودن پیوست ها"</string>
+    <!-- Alert dialog when adding attachments is taking a while -->
+    <string name="adding_attachments">"وقتی موارد به نمایش اسلاید اضافه می شوند صبر کنید."</string>
+    <!-- Alert dialog title when creating a slideshow [CHAR LIMIT=none] -->
+    <string name="building_slideshow_title">"ساختن نمایش اسلاید"</string>
+    <!-- Error message indicating that an audio attachment cannot be played -->
+    <string name="cannot_play_audio">"پخش صدا امکان پذیر نیست."</string>
+    <!-- Button in the slide editor screen used to preview the slide (imperative verb) -->
+    <string name="preview">"پیش نمایش"</string>
+    <!-- Menu item in the slide editor screen used to preview the entire slideshow (imperative verb) -->
+    <string name="preview_slideshow">"پیش نمایش"</string>
+    <!-- Button in the slide editor screen used to replace the attached picture -->
+    <string name="replace_image">"جایگزین کردن تصویر"</string>
+    <!-- String for slide duration in seconds -->
+    <string name="duration_sec">"مدت زمان (<xliff:g id="duration">%s</xliff:g> ثانیه)"</string>
+    <!-- Dialog box title for duration selector -->
+    <string name="duration_selector_title">"مدت زمان اسلاید"</string>
+    <!-- Dialog box title for slide layout selector -->
+    <string name="layout_selector_title">"صفحه آرایی نمایش اسلاید"</string>
+    <!-- Slide layout option for layout at the top -->
+    <string name="layout_top">"صفحه آرایی (بالا)"</string>
+    <!-- Slide layout option for layout at the bottom -->
+    <string name="layout_bottom">"صفحه آرایی (پایین)"</string>
+    <!-- Hint in slide text field before text is typed -->
+    <string name="type_to_compose_text_or_leave_blank">"پیام را تایپ کنید، یا خالی بگذارید"</string>
+    <!-- Toast when the user enters a non-numeric value for the duration of a slide -->
+    <string name="duration_not_a_number">"مدت زمان باید عدد باشد."</string>
+    <!-- Toast when the user enters a zero value for the duration of a slide -->
+    <string name="duration_zero">"مدت زمان باید بزرگتر از صفر ثانیه باشد."</string>
+    <!-- In duration selection dialog box, short version of "seconds" -->
+    <string name="secs">"ثانیه"</string>
+    <!-- Options for slide duration in duration selection dialog box -->
+    <string-array name="select_dialog_items">
+        <item>"1 ثانیه"</item>
+        <item>"2 ثانیه"</item>
+        <item>"3 ثانیه"</item>
+        <item>"4 ثانیه"</item>
+        <item>"5 ثانیه"</item>
+        <item>"6 ثانیه"</item>
+        <item>"7 ثانیه"</item>
+        <item>"8 ثانیه"</item>
+        <item>"9 ثانیه"</item>
+        <item>"10 ثانیه"</item>
+        <item>"سایر موارد"</item>
+    </string-array>
+    <!-- Context menu item on a message recipient for viewing their contact info -->
+    <string name="menu_view_contact">"مشاهده مخاطب"</string>
+    <!-- Context menu item on a message recipient for adding them to the user's
+         contacts (used if the recipient is not already in the address book) -->
+    <string name="menu_add_to_contacts">"افزودن به افراد"</string>
+    <!-- Sender to be used if the sender address has been hidden -->
+    <string name="hidden_sender_address">"پنهان کردن آدرس فرستنده"</string>
+    <!-- Text to be used for affirmative response button in dialog boxes -->
+    <string name="yes">"تأیید"</string>
+    <!-- Text to be used for negative response button in dialog boxes -->
+    <string name="no">"لغو"</string>
+    <!-- Text to be used for affirmative response button in setting SMS limits dialog box -->
+    <string name="set">"تنظیم"</string>
+    <!-- Button text used for playing an attachment or slideshow (imperative verb) -->
+    <string name="play">"پخش"</string>
+    <!-- Button text used for editing a slideshow (imperative verb) -->
+    <string name="edit">"ویرایش"</string>
+    <!-- Button used for trying to send a message that has some valid recipients and some
+         invalid recipients, in spite of the warning presented to the user -->
+    <string name="try_to_send">"تلاش برای ارسال"</string>
+    <!-- Title of Settings screen -->
+    <string name="preferences_title">"تنظیمات"</string>
+    <!-- Settings screen menu item for restoring all settings to default -->
+    <string name="restore_default">"بازیابی تنظیمات پیش فرض"</string>
+    <!-- Settings screen, section heading for notifications -->
+    <string name="pref_notification_settings_title">"اعلان ها"</string>
+    <!-- Settings screen, section heading for MMS-specific settings -->
+    <string name="pref_mms_settings_title">"پیام های چندرسانه ای (MMS)"</string>
+    <!-- Settings screen, section heading for SMS-specific settings -->
+    <string name="pref_sms_settings_title">"پیام های متنی (SMS)"</string>
+    <!-- Settings screen, section heading for storage-specific settings -->
+    <string name="pref_sms_storage_title">"حافظه"</string>
+    <!-- Settings item description for entering SIM card message screen -->
+    <string name="pref_summary_manage_sim_messages">"مدیریت پیام های ذخیره شده در سیم کارت"</string>
+    <!-- Settings item description for boolean MMS delivery report setting -->
+    <string name="pref_summary_mms_delivery_reports">"درخواست گزارش تحویل برای هر پیام ارسال شده"</string>
+    <!-- Settings item description for boolean MMS read report setting -->
+    <string name="pref_summary_mms_read_reports">"درخواست گزارش خواندن برای هر پیام ارسال شده"</string>
+    <!-- Settings item description for boolean SMS delivery report setting -->
+    <string name="pref_summary_sms_delivery_reports">"درخواست گزارش تحویل برای هر پیام ارسال شده"</string>
+    <!-- Settings item description for boolean auto-delete messages setting -->
+    <string name="pref_summary_auto_delete">"حذف پیام های قدیمی زیرا به حد نصاب خود رسیده است"</string>
+    <!-- Settings item description for integer auto-delete sms message limit -->
+    <string name="pref_summary_delete_limit">
+        "<xliff:g id="count">%1$s</xliff:g> پیام در هر گفت و گو"</string>
+    <!-- Settings item for entering SIM card message screen -->
+    <string name="pref_title_manage_sim_messages">"مدیریت پیام های سیم کارت"</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports -->
+    <string name="pref_title_mms_delivery_reports">"گزارش های تحویل"</string>
+    <!-- Settings item for boolean option to enable/disable MMS read reports -->
+    <string name="pref_title_mms_read_reports">"گزارش های خواندن"</string>
+    <!-- Settings item for boolean option to enable/disable SMS delivery reports -->
+    <string name="pref_title_sms_delivery_reports">"گزارش های تحویل"</string>
+    <!-- Settings item for boolean option to enable/disable auto-deletion of messages -->
+    <string name="pref_title_auto_delete">"حذف پیام های قدیمی"</string>
+    <!-- Settings item for integer option to set SMS delete limit -->
+    <string name="pref_title_sms_delete">"حد پیام متنی"</string>
+    <!-- Settings item for integer option to set MMS delete limit -->
+    <string name="pref_title_mms_delete">"حد پیام چندرسانه ای"</string>
+    <!-- Settings item for boolean option to display message notifications -->
+    <string name="pref_title_notification_enabled">"اعلان ها"</string>
+    <!-- Settings item description for boolean message notification option -->
+    <string name="pref_summary_notification_enabled">"نمایش اعلان های پیام در نوار وضعیت"</string>
+    <!-- Settings item for boolean option to vibrate during message notification -->
+    <string name="pref_title_notification_vibrateWhen">"لرزش"</string>
+    <!-- Settings item description for boolean vibrate option -->
+    <string name="pref_summary_notification_vibrateWhen">"همچنین لرزش در هنگام اعلان"</string>
+    <!-- Settings item for entering ringtone selection screen -->
+    <string name="pref_title_notification_ringtone">"انتخاب آهنگ زنگ"</string>
+    <!-- Settings item for setting the number of message to save for each conversation -->
+    <string name="pref_messages_to_save">"تعیین تعداد پیام ها برای ذخیره"</string>
+    <!-- ASUS BEGIN, dion_yang -->
+    <!-- SMSC setting strings -->
+    <string name="smsc_setting">"تنظیم SMSC"</string>
+    <string name="smsc_summary">"تعیین و دریافت شماره SMSC"</string>
+<!-- For PHONE -->
+    <string name="smsc_prompt" description="MMS smsc setting prompt in edit text zone" maxwidth="-1">"شماره SMSC:"</string>
+    <string name="smsc_updating_null" description="MMS smsc setting toast when user input null string" maxwidth="-1">"قسمت شماره SMSC نباید خالی باشد. لطفاً یک شماره معتبر وارد کنید."</string>
+    <string name="smsc_updating_fail" description="MMS smsc setting toast when user updating SMSC number fail" maxwidth="-1">"به روزرسانی شماره SMSC ناموفق بود."</string>
+    <string name="smsc_fetch_fail" description="MMS smsc setting prompt when get intial SMSC number fail" maxwidth="-1">"دریافت شماره SMSC ناموفق بود."</string>
+<!-- For PHONE -->
+    <!-- MMS priority setting strings -->
+    <string name="pref_title_mms_priority">"تعیین اولویت MMS"</string>
+    <string name="pref_summary_mms_priority">"تعیین سطح اولویت برای ارسال پیام MMS"</string>
+    <!-- MMS max size setting strings -->
+    <string name="pref_title_mms_max_size">"تعیین حداکثر حجم MMS"</string>
+    <string name="pref_summary_mms_max_size">"تعیین حداکثر حجم برای ارسال پیام های MMS"</string>
+    <!-- ASUS END, dion_yang -->
+    <!-- The vibrate notification modes -->
+    <string-array name="prefEntries_vibrateWhen">
+        <item>"همیشه"</item>
+        <item>"فقط وقتی بی صدا است"</item>
+        <item>"هرگز"</item>
+    </string-array>
+    <!-- The default vibrateWhen value, when none is set -->
+    <!-- The value to use when migrating from old versions for a true vibrate setting -->
+    <!-- The value to use when migrating from old versions for a false vibrate setting -->
+    <!-- The vibrateWhen values -->
+    <!-- Dialog title for the Vibrate dialog -->
+    <string name="prefDialogTitle_vibrateWhen">"لرزش"</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
+    <string name="pref_title_mms_auto_retrieval">"بازیابی خودکار"</string>
+    <!-- Settings item description for boolean MMS auto-retrieve option -->
+    <string name="pref_summary_mms_auto_retrieval">"بازیابی خودکار پیام ها"</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages while roaming -->
+    <string name="pref_title_mms_retrieval_during_roaming">"بازیابی خودکار رومینگ"</string>
+    <!-- Settings item description for boolean MMS auto-retrieve while roaming option -->
+    <string name="pref_summary_mms_retrieval_during_roaming">"بازیابی خودکار پیام ها هنگام رومینگ"</string>
+    <!-- Confirm Delete -->
+    <!-- Delete confirmation dialog title -->
+    <string name="confirm_dialog_title">"حذف شود؟"</string>
+    <!-- Delete confirmation dialog title for locked messages -->
+    <string name="confirm_dialog_locked_title">"پیام قفل شده حذف شود؟"</string>
+    <!-- This message is displayed in a confirmation dialog when the user selects one or more
+         conversations and then taps the "Delete" button. -->
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">"یک گفت و گو حذف می شود."</item>
+        <item quantity="other">
+            "<xliff:g example="15" id="number">%1$s</xliff:g> گفت و گو حذف می شود."</item>
+    </plurals>
+    <string name="confirm_delete_conversation">"کل رشته حذف می شود."</string>
+    <!-- Delete all threads confirmation dialog message -->
+    <string name="confirm_delete_all_conversations">"همه رشته ها حذف می شوند."</string>
+    <!-- Delete message confirmation dialog message -->
+    <string name="confirm_delete_message">"پیام حذف می شود."</string>
+    <!-- Delete message confirmation dialog message for a locked message -->
+    <string name="confirm_delete_locked_message">"این پیام قفل شده حذف شود؟"</string>
+    <!-- Delete all the messages on the SIM dialog message -->
+    <string name="confirm_delete_all_SIM_messages">"تمام پیام های روی سیم کارت حذف می شوند."</string>
+    <!-- Delete the selected message on the SIM dialog message -->
+    <string name="confirm_delete_SIM_message">"این پیام روی سیم کارت حذف می شود."</string>
+    <!-- Delete unlocked checkbox title -->
+    <string name="delete_unlocked">"حذف پیام های قفل شده"</string>
+    <!-- Delete button title -->
+    <string name="delete">"حذف"</string>
+    <!-- Action bar mode title when multi-selecting conversations -->
+    <string name="select_conversations">"انتخاب گفت و گوها"</string>
+    <!-- Show this in the middle of the main activity when there are no conversations [CHAR LIMIT=none] -->
+    <string name="no_conversations">"گفت و گویی موجود نیست."</string>
+    <!-- Show this in the middle of the main activity when loading conversations [CHAR LIMIT=none] -->
+    <string name="loading_conversations">"در حال بارگیری گفت و گوها."</string>
+    <!-- When the user tries to view message details and some error occurs while
+         retrieving those details, this message will be shown. -->
+    <string name="cannot_get_details">"دریافت جزئیات ممکن نیست."</string>
+    <!-- Title of "Message details" dialog -->
+    <string name="message_details_title">"جزئیات پیام"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_type_label">"نوع:\u0020"</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="text_message">"پیام متنی"</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_message">"پیام چندرسانه ای"</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_notification">"اعلان پیام چندرسانه ای"</string>
+    <!-- Label in "Message details" dialog showing who sent the message. -->
+    <string name="from_label">"از:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="to_address_label">"به:\"u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="bcc_label">Bcc:\u0020""</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="sent_label">"ارسال شده:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="received_label">"دریافت شده:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="saved_label">"ذخیره شده:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="subject_label">"موضوع:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_size_label">"حجم پیام:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="priority_label">"اولویت:\u0020"</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_high">"بالا"</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_normal">"عادی"</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_low">"پایین"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_class_label">"گروه پیام:\u0020"</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="error_code_label">"کد خطا:\u0020"</string>
+   <!-- Menu title for editing a message -->
+   <string name="menu_edit">"ویرایش"</string>
+   <!-- Menu title for locking a message -->
+   <string name="menu_lock">"قفل"</string>
+   <!-- Menu title for unlocking a message -->
+   <string name="menu_unlock">"بازگشایی قفل"</string>
+    <!-- Manage SIM Messages -->
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <!-- <string name="sim_copy_to_phone_memory" product="tablet">Copy to tablet memory</string> -->
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <!-- <string name="sim_copy_to_phone_memory" product="default">Copy to phone memory</string> -->
+    <!-- Menu title to delete a selected messaged from the SIM card. -->
+    <string name="sim_delete">"حذف"</string>
+    <!-- Title of screen displaying messages on SIM card -->
+    <string name="sim_manage_messages_title">"پیام های متنی در سیم کارت"</string>
+    <!-- Context menu item but currently commented out in 1.0. -->
+    <string name="sim_view">"نما"</string>
+    <!-- Message that appears on the "SMS messges on SIM card" screen when there are no messages on the SIM card -->
+    <string name="sim_empty">"هیچ پیامی در سیم کارت موجود نیست."</string>
+    <!-- Delivery Header View -->
+    <!-- Title of "Report" window -->
+    <string name="delivery_header_title">"گزارش"</string>
+    <!-- Delivery Report Activity -->
+    <!-- Status in "Report" window -->
+    <string name="status_none">"(هیچکدام)"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_pending">"معلق"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_read">"خوانده شده"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_received">"دریافت شده"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_failed">"ناموفق"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_unread">"خوانده نشده"</string>
+    <!-- Status in "Report" window -->
+    <string name="status_rejected">"رد شده"</string>
+    <!-- Label in "Report" window -->
+    <string name="recipient_label">"دریافت کننده:\u0020"</string>
+    <!-- Label in "Report" window -->
+    <string name="status_label">"وضعیت:\u0020"</string>
+    <!-- Label in "Report" window [CHAR LIMIT=50]-->
+    <string name="delivered_label">"تحویل داده شده:\u0020"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_image">"تصاویر"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_take_photo">"تصویربرداری"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_video">"ویدئوها"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_video">"فیلمبرداری"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_sound">"صدا"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_sound">"ضبط صدا"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_vcard">"کارت ویزیت الکترونیکی"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog -->
+    <string name="attach_vcalendar">"تقویم الکترونیکی"</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog -->
+    <string name="attach_slideshow">"نمایش اسلاید"</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_bottom_text">"متن در پایین"</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_top_text">"متن در بالا"</string>
+    <!-- Delivery Report Toast dialog content -->
+    <string name="delivery_toast_body">"پیام توسط %s دریافت شد."</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple">
+        "ارسال <xliff:g id="count">%s</xliff:g> پیام امکان پذیر نیست"</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple_title">"پیام ها ارسال نشدند"</string>
+    <!-- Sim Full Notification dialog title. -->
+    <string name="sim_full_title">"سیم کارت پر است"</string>
+    <!-- Sim Full Notification dialog text. -->
+    <string name="sim_full_body">"تعدادی از پیام ها را حذف کنید تا فضای بیشتری آزاد شود."</string>
+    <!-- Device Full Notification dialog title. -->
+    <string name="sms_full_title">"حافظه پیام متنی پر است"</string>
+    <!-- Device Full Notification dialog text. -->
+    <string name="sms_full_body">"پیام ورودی به علت پر بودن حافظه رد شد. تعدادی از پیام های قدیمی را حذف کنید."</string>
+    <!-- Sms's Being Rejected Notification dialog title. -->
+    <string name="sms_rejected_title">"پیام متنی رد شد"</string>
+    <!-- Sms's Being Rejected Notification dialog text. -->
+    <string name="sms_rejected_body">"پیام ورودی به علت دلیل ناشناخته رد شد."</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this audio to your message. -->
+    <string name="type_audio">"صدا"</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this picture to your message. -->
+    <string name="type_picture">"تصویر"</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this video to your message. -->
+    <string name="type_video">"ویدئو"</string>
+    <!-- Dialog title for the Read Report dialog. -->
+    <string name="confirm">"تأیید"</string>
+    <!-- Dialog text for the Read Report dialog. -->
+    <string name="message_send_read_report">"گزارش خواندن ارسال می شود."</string>
+    <!-- This is the text of a toast message briefly displayed when a problem occurs
+         while sending. -->
+    <string name="message_queued">"در حال حاضر ارسال پیام ممکن نیست. وقتی سرویس در دسترس بود ارسال می شود."</string>
+    <!-- dialog error message when only is FDN is allowed. -->
+    <string name="fdn_check_failure">"فقط می توانید پیام ها را به شماره های شماره گیری ثابت خود ارسال کنید."</string>
+    <!-- Download Manager -->
+    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
+         this default subject. -->
+    <string name="no_subject">"(بدون موضوع)"</string>
+    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
+         this default text. -->
+    <string name="unknown_sender">"فرستنده ناشناس"</string>
+    <!-- When an error occurs downloading a new message, display this message.
+         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">"دانلود پیام <xliff:g id="subject">%1$s</xliff:g> از <xliff:g id="from">%2$s</xliff:g> امکان پذیر نیست."</string>
+    <!-- This is the confirm rate limit alert dialog title. -->
+    <string name="rate_limit_surpassed">"تأیید"</string>
+    <!-- This is the confirm rate limit alert dialog text. -->
+    <string name="confirm_rate_limit">"تعداد زیادی از پیام های چندرسانه ای ارسال شدند. آیا تأیید می کنید؟"</string>
+    <!-- Message Failed Notification -->
+    <!-- Dialog box title when receiving a message failed. -->
+    <string name="message_download_failed_title">"پیام دانلود نشد"</string>
+    <!-- Dialog box title when sending a message failed. -->
+    <string name="message_send_failed_title">"پیام ارسال نشد"</string>
+    <!-- Dialog box message text when failure occurs sending a message. -->
+    <string name="message_failed_body">"برای مرور پیام لمس کنید و دوباره تلاش کنید."</string>
+    <!-- Dialog box message when there's a problem retrieving messages. -->
+    <string name="download_later">"اکنون دانلود نمی شود. بعداً دوباره تلاش کنید."</string>
+    <!-- Title for audio file picker -->
+    <string name="select_audio">"انتخاب صدا"</string>
+    <!-- Menu title to copy an attachment to the shared storage [CHAR LIMIT=25] -->
+    <string name="copy_to_sdcard">"ذخیره پیوست"</string>
+    <!-- Toast message on successful copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_success">"پیوست ذخیره شد."</string>
+    <!-- Toast message on failed copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_fail">"ذخیره پیوست امکان پذیر نیست."</string>
+    <!-- Menu title to save a sound as a ringtone -->
+    <string name="save_ringtone">"ذخیره بعنوان آهنگ زنگ"</string>
+    <!-- Toast message on successful copying ringtone to drm provider -->
+    <string name="saved_ringtone">"آهنگ زنگ ذخیره شد."</string>
+    <!-- Toast message on failed copying ringtone to drm provider -->
+    <string name="saved_ringtone_fail">"ذخیره آهنگ زنگ امکان پذیر نیست."</string>
+    <!-- Menu item -->
+    <string name="menu_insert_smiley">"درج شکلک"</string>
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+    <string name="select_link_title">"انتخاب عملکرد"</string>
+    <!-- Name of the Nth slide, shown in the list in the slideshow editor. -->
+    <string name="slide_number">"اسلاید <xliff:g example="5" id="number">%s</xliff:g>"
+    </string>
+    <!-- Duration of the slide, shown in the list in the slideshow editor -->
+    <plurals name="slide_duration">
+        <item quantity="one">
+            "<xliff:g example="1" id="number">%s</xliff:g> ثانیه"</item>
+        <item quantity="few">
+            "<xliff:g example="2" id="number">%s</xliff:g> ثانیه"</item>
+        <item quantity="other">
+            "<xliff:g example="15" id="number">%s</xliff:g> ثانیه"</item>
+    </plurals>
+    <!-- Title of the delivery report activity. -->
+    <string name="delivery_report_activity">"گزارش تحویل"</string>
+    <!-- Title of the activity that tells the user about storage limits. -->
+    <string name="storage_limits_activity">"محدودیت های حافظه"</string>
+    <!-- Title of the slide duration editor activity. -->
+    <string name="change_duration_activity">"تغییر مدت زمان"</string>
+    <!-- Title of the slideshow editor activity. -->
+    <string name="edit_slideshow_activity">"ویرایش نمایش اسلاید"</string>
+    <!-- Title of the slide editor activity. -->
+    <string name="edit_slide_activity">"ویرایش اسلاید"</string>
+    <!-- Title of the slideshow activity. -->
+    <string name="slideshow_activity">"نمایش اسلاید"</string>
+    <!-- Title of the class-0 message activity. -->
+    <string name="class_0_message_activity">"پیام گروه 0"</string>
+    <!-- Application name shown when searching -->
+    <string name="search_label">"پیام رسانی"</string>
+    <!-- Search hint -->
+    <string name="search_hint">"جستجوی پیام رسانی"</string>
+    <!-- Search activity name -->
+    <string name="search">"پیام رسانی"</string>
+    <!-- Search setting description -->
+    <string name="search_setting_description">"متن در پیام های شما"</string>
+    <!--  Search empty results -->
+    <string name="search_empty">"مطابقت ندارد."</string>
+    <!--  Search results title -->
+    <plurals name="search_results_title">
+        <item quantity="one">
+            "<xliff:g example="1" id="number">%1$s</xliff:g> نتیجه برای \"<xliff:g example="???" id="search">%2$s</xliff:g>\"</item>
+        <item quantity="other">
+            "<xliff:g example="15" id="number">%1$s</xliff:g> نتیجه برای \"<xliff:g example="???" id="search">%2$s</xliff:g>\"</item>
+    </plurals>
+    <!--- String saved in history searches. -->
+    <string name="search_history">
+        "<xliff:g id="count">%1$s</xliff:g> نتیجه برای \"<xliff:g id="search">%2$s</xliff:g>\"</string>
+    <!-- Button title in Messaging preferences. -->
+    <string name="confirm_clear_search_title">"پاک کردن"</string>
+    <!-- Text for the preferences button. -->
+    <string name="confirm_clear_search_text">"تاریخچه جستجو پاک می شود."</string>
+    <!--- Button title in preferences to clear the search history. It's a verb action that takes place
+          immediately when clicked. -->
+    <string name="pref_mms_clear_search_history_title">"پاک کردن تاریخچه جستجو"</string>
+    <!--- Button description in preferences to clear the search history. -->
+    <string name="pref_mms_clear_search_history_summary">"پاک کردن جستجوهای پیام رسانی قبلی از نمایش در کادر جستجو"</string>
+    <!-- Dialog text for display mode save dialog. -->
+    <string name="save">"ذخیره"</string>
+    <!-- Dialog title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_title">"محدود کردن پیام ها"</string>
+    <!-- Dialog message for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_message">"تعداد پیام هایی که در هر گفت و گو ذخیره می کنید محدود شود؟"</string>
+    <!-- Button title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting">"تعیین محدودیت ها"</string>
+    <!-- Button title to dismiss dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting_dismiss">"بدون محدودیت"</string>
+    <!-- Toast message when a user tries to send a Mms message when there are already too many
+         outstanding unsent message. -->
+    <string name="too_many_unsent_mms">"در حال حاضر امکان ارسال پیام وجود ندارد. تعداد زیادی پیام های چندرسانه ای ارسال نشده موجود است."</string>
+    <!-- Brief small label shown to right of message when it is being sent. -->
+    <string name="sending_message">"در حال ارسال\u2026"</string>
+    <!-- Title of progress dialog for picker -->
+    <string name="pick_too_many_recipients">"تعداد زیادی گیرنده وجود دارد"</string>
+    <!-- Message of progress dialog for picker -->
+    <string name="adding_recipients">"افزودن گیرنده ها\u2026"</string>
+    <!-- In conversation list items, this is the separator between a contact's name
+         and the draft stamp [CHAR LIMIT=5] -->
+    <string name="draft_separator">,\u0020</string>
+    <!-- In conversation list items, this comes after the receipient's name and contains
+         the number of messages in the thread [CHAR LIMIT=5] -->
+    <string name="message_count_format">\u00a0<xliff:g example="1" id="number">%1$s</xliff:g>
+    </string>
+    <!-- When showing a multi-message notification, this is the title [CHAR LIMIT=none] -->
+    <string name="message_count_notification">
+        "<xliff:g example="3" id="number">%1$s</xliff:g> پیام جدید"</string>
+    <!-- In digest notifications when we show N messages, but there are N+M outstanding messages,
+         this text is displayed at the bottom of the notification. [CHAR LIMIT=50] -->
+    <plurals name="message_count_notification_overflow">
+        <item quantity="one">"+<xliff:g example="1" id="number">%1$s</xliff:g> پیام دیگر"</item>
+        <item quantity="other">"+<xliff:g example="15" id="number">%1$s</xliff:g> پیام دیگر"</item>
+    </plurals>
+    <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state">"وضعیت ناهماهنگ"</string>
+    <!-- For debugging: Dialog box text indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state_text">"وضعیت رشته ها و گیرنده ها ناهماهنگ است. لطفاً یک گزارش اشکال تهیه کرده و از طریق http://go/droidanizer گزارش دهید" </string>
+    <!-- In the title of the compose message activity, when there are multiple recipients, we show
+         the number of recipients in the subtitle of the action bar. There's never a case of one. [CHAR LIMIT=50] -->
+    <plurals name="recipient_count">
+        <item quantity="other">
+            "<xliff:g example="15" id="number">%1$s</xliff:g> فرد"</item>
+    </plurals>
+    <!-- Message of the dialog used to disable messaging notifications [CHAR LIMIT=none] -->
+    <string name="disable_notifications_dialog_message">"اعلان های پیام متنی تکراری از برنامه پیام رسانی پیش فرض متوقف شود؟"</string>
+    <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default conversation list. [CHAR LIMIT=35] -->
+    <string name="view_more_conversations">"مشاهده گفت و گوهای بیشتر"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_audio">"صدا"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_slideshow">"نمایش اسلاید"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_video">"ویدئو"</string>
+    <!-- Attachment type shown in notification. [CHAR LIMIT=35] -->
+    <string name="attachment_picture">"تصویر"</string>
+    <!-- Separator between parts of a notification in each line of an inboxStyle notification. [CHAR LIMIT=2] -->
+    <string name="notification_separator">\u0020\u0020</string>
+    <!-- An enumeration comma for separating multiple names in notifications. [CHAR LIMIT=2] -->
+    <string name="enumeration_comma">,\u0020</string>
+    <!-- Subscription selection strings -->
+    <string name="select_subscription_title">"انتخاب اشتراک"</string>
+    <string name="subscription1_title">"اشتراک 1"</string>
+    <string name="subscription2_title">"اشتراک 2"</string>
+    <string name="pending_mms_title">"MMS معلق در اشتراک دیگر."</string>
+    <string name="pending_mms">"پیام رسانی: یک یا چند MMS در حالت معلق قرار دارند."</string>
+    <string name="pending_mms_text">"برای تغییر اشتراک لمس کنید."</string>
+    <string name="abort_mms">"پیام رسانی: لغو MMS"</string>
+    <string name="progress_mms_title">"انتقال MMS در اشتراک دیگر در حال انجام است"</string>
+    <string name="progress_mms">"پیام رسانی: MMS در حال انجام است..."</string>
+    <!-- Cdma broadcast Messages strings -->
+    <string name="cdma_broadcast_messages">"پیام های برنامه Cdma"</string>
+    <string name="enable_disable_cdma_bc_sms">"SMS برنامه Cdma"</string>
+    <string name="cdma_bc_sms_enable">"SMS برنامه Cdma فعال شد"</string>
+    <string name="cdma_bc_sms_disable">"SMS برنامه Cdma غیرفعال شد"</string>
+    <string name="cdma_bc_sms_settings">"تنظیمات SMS برنامه Cdma"</string>
+    <string name="enable_disable_unknown_broadcast">"پخش مقوله ناشناخته"</string>
+    <string name="unknown_broadcast_enable">"پخش موارد ناشناخته فعال شد"</string>
+    <string name="unknown_broadcast_disable">"پخش موارد ناشناخته غیرفعال شد"</string>
+    <string name="enable_disable_emergency_broadcast">"پخش اضطراری"</string>
+    <string name="emergency_broadcast_enable">"پخش اضطراری فعال شد"</string>
+    <string name="emergency_broadcast_disable">"پخش اضطراری غیرفعال شد"</string>
+    <string name="enable_disable_administrative">"اجرایی"</string>
+    <string name="administrative_enable">"اجرایی فعال شد"</string>
+    <string name="administrative_disable">"اجرایی غیرفعال شد"</string>
+    <string name="enable_disable_maintenance">"نگهداری"</string>
+    <string name="maintenance_enable">"نگهداری فعال شد"</string>
+    <string name="maintenance_disable">"نگهداری غیرفعال شد"</string>
+    <string name="general_news_settings">"اخبار عمومی"</string>
+    <string name="bf_news_settings">"اخبار مالی و بازرگانی"</string>
+    <string name="sports_news_settings">"اخبار ورزشی"</string>
+    <string name="entertainment_news_settings">"اخبار سرگرمی"</string>
+    <string name="enable_disable_local">"محلی"</string>
+    <string name="local_enable">"اخبار محلی فعال شد"</string>
+    <string name="local_disable">"اخبار محلی غیرفعال شد"</string>
+    <string name="enable_disable_regional">"منطقه ای"</string>
+    <string name="regional_enable">"اخبار منطقه ای فعال شد"</string>
+    <string name="regional_disable">"اخبار منطقه ای غیرفعال شد"</string>
+    <string name="enable_disable_national">"ملی"</string>
+    <string name="national_enable">"اخبار ملی فعال شد"</string>
+    <string name="national_disable">"اخبار ملی غیرفعال شد"</string>
+    <string name="enable_disable_international">"بین المللی"</string>
+    <string name="international_enable">"اخبار بین المللی فعال شد"</string>
+    <string name="international_disable">"اخبار بین المللی غیرفعال شد"</string>
+    <string name="list_language_title">"زبان"</string>
+    <string name="list_language_summary">"زبان اخبار را انتخاب کنید"</string>
+    <string-array name="list_language_entries">
+        <item>"انگلیسی"</item>
+        <item>"فرانسوی"</item>
+        <item>"اسپانیایی"</item>
+        <item>"ژاپنی"</item>
+        <item>"کره ای"</item>
+        <item>"چینی"</item>
+        <item>"عبری"</item>
+    </string-array>
+        <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"زبان ها"</string>
+    <string name="enable_disable_local_weather">"آب و هوای محلی"</string>
+    <string name="local_weather_enable">"آب و هوای محلی فعال شد"</string>
+    <string name="local_weather_disable">"آب و هوای محلی غیرفعال شد"</string>
+    <string name="enable_disable_atr">"گزارش های ترافیک منطقه"</string>
+    <string name="atr_enable">"گزارش های ترافیک منطقه فعال شد"</string>
+    <string name="atr_disable">"گزارش های ترافیک منطقه غیرفعال شد"</string>
+    <string name="enable_disable_lafs">"برنامه های پرواز فرودگاه محلی"</string>
+    <string name="lafs_enable">"برنامه های پرواز فرودگاه محلی فعال شد"</string>
+    <string name="lafs_disable">"برنامه های پرواز فرودگاه محلی غیرفعال شد"</string>
+    <string name="enable_disable_restaurants">"رستوران ها"</string>
+    <string name="restaurants_enable">"رستوران ها فعال شد"</string>
+    <string name="restaurants_disable">"رستوران ها غیرفعال شد"</string>
+    <string name="enable_disable_lodgings">"اسکان ها"</string>
+    <string name="lodgings_enable">"اسکان ها فعال شد"</string>
+    <string name="lodgings_disable">"اسکان ها غیرفعال شد"</string>
+    <string name="enable_disable_retail_directory">"مجموعه فروشگاه ها"</string>
+    <string name="retail_directory_enable">"مجموعه فروشگاه ها فعال شد"</string>
+    <string name="retail_directory_disable">"مجموعه فروشگاه ها غیرفعال شد"</string>
+    <string name="enable_disable_advertisements">"تبلیغات"</string>
+    <string name="advertisements_enable">"تبلیغات فعال شد"</string>
+    <string name="advertisements_disable">"تبلیغات غیرفعال شد"</string>
+    <string name="enable_disable_stock_quotes">"قیمت سهام"</string>
+    <string name="stock_quotes_enable">"قیمت سهام فعال شد"</string>
+    <string name="stock_quotes_disable">"قیمت سهام غیرفعال شد"</string>
+    <string name="enable_disable_eo">"فرصت های شغلی"</string>
+    <string name="eo_enable">"فرصت های شغلی فعال شد"</string>
+    <string name="eo_disable">"فرصت های شغلی غیرفعال شد"</string>
+    <string name="enable_disable_mhh">"پزشکی، سلامت و بیمارستان"</string>
+    <string name="mhh_enable">"پزشکی، سلامت و بیمارستان فعال شد"</string>
+    <string name="mhh_disable">"پزشکی، سلامت و بیمارستان غیرفعال شد"</string>
+    <string name="enable_disable_technology_news">"اخبار فناوری"</string>
+    <string name="technology_news_enable">"اخبار فناوری فعال شد"</string>
+    <string name="technology_news_disable">"اخبار فناوری غیرفعال شد"</string>
+    <string name="enable_disable_multi_category">"چند گروهی"</string>
+    <string name="multi_category_enable">"چند گروهی فعال شد"</string>
+    <string name="multi_category_disable">"چند گروهی غیرفعال شد"</string>
+    <!-- GSM/UMTS Cell broadcast SMS strings -->
+    <string name="cell_broadcast_sms_title">"هشدارهای اضطراری"</string>
+    <string name="gsm_umts_cell_broadcast_sms_title">"هشدارهای اضطراری"</string>
+    <string name="gsm_umts_cell_broadcast_sms_summary">"پیکربندی پیام های هشدار اضطراری GSM/UMTS"</string>
+    <string name="area_info_msgs">"کانال اطلاعات ناحیه"</string>
+    <string name="area_info_msgs_enabled">"فعال شد"</string>
+    <string name="area_info_msgs_disabled">"غیرفعال شد"</string>
+    <!-- ASUS BEGIN, dion_yang: Add custom Channel setting dialog for user -->
+<!-- ASUS BEGIN, dion_yang: Copy from android Setting -->
+    <string name="enable_text">"فعال"</string>
+    <string name="disable_text">"غیرفعال"</string>
+    <string name="language_picker_title">"زبان"</string>
+<!-- ASUS BEGIN, dion_yang: Add custom Channel setting dialog for user -->
+    <string name="add_channel_title">"افزودن شناسه کانال"</string>
+<!-- ASUS BEGIN, dion_yang:For GSM CBS Language -->
+    <string-array name="list_gsm_language_entries">
+        <item>"آلمانی"</item>
+        <item>"انگلیسی"</item>
+        <item>"ایتالیایی"</item>
+        <item>"فرانسوی"</item>
+        <item>"اسپانیایی"</item>
+        <item>"هلندی"</item>
+        <item>"سوئدی"</item>
+        <item>"دانمارکی"</item>
+        <item>"پرتغالی"</item>
+        <item>"فنلاندی"</item>
+        <item>"نروژی"</item>
+        <item>"یونانی"</item>
+        <item>"ترکی"</item>
+        <item>"مجارستانی"</item>
+        <item>"لهستانی"</item>
+        <item>"زبان مشخص نشده است"</item>
+    </string-array>
+    <string-array name="list_gsm_language_values">
+        <item>"de"</item>
+        <item>"en"</item>
+        <item>"it"</item>
+        <item>"fr"</item>
+        <item>"es"</item>
+        <item>"nl"</item>
+        <item>"sv"</item>
+        <item>"da"</item>
+        <item>"pt"</item>
+        <item>"fi"</item>
+        <item>"no"</item>
+        <item>"el"</item>
+        <item>"tr"</item>
+        <item>"hu"</item>
+        <item>"pl"</item>
+        <item>"default"</item>
+    </string-array>
+    <!-- ASUS END, dion_yang:For GSM CBS Language -->
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="general_sms_cb_label" description="Cell broadcast settings title" maxwidth="30">SMS\u30bb\u30eb\u30d6\u30ed\u30fc\u30c9\u30ad\u30e3\u30b9\u30c8</string>
+  <string name="general_sms_cb_settings" description="SMS Cell broadcast settings title" maxwidth="30">SMS\u30bb\u30eb\u30d6\u30ed\u30fc\u30c9\u30ad\u30e3\u30b9\u30c8\uff08CBC\uff09\u306e\u8a2d\u5b9a</string>
+</resources>

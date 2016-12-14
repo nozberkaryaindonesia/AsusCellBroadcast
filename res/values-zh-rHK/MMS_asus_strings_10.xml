@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">"複製簡訊至SIM卡成功!"</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">"複製簡訊至SIM卡失敗!"</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"複製SIM卡簡訊至手機儲存空間成功!"</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"複製SIM卡簡訊至手機儲存空間失敗!"</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">"未安裝SIM卡!\n本功能需安裝SIM卡才能使用!"</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">"SIM卡錯誤!SIM卡狀態:"<xliff:g id="sim_status">"%s"</xliff:g></string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">刪除多個訊息</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">選擇的訊息將會被刪除</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">備份簡訊</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">還原簡訊</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">還原簡訊設定</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">刪除全部(收件匣、寄件備份與草稿)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">保留未讀訊息</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">保留全部(過濾重覆的訊息)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">輸入備份檔案名稱</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">將收到及傳送的簡訊、草稿備份至裝置內建儲存空間</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">無可備份的簡訊</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">無備份檔案，請先備份簡訊</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">有些資料將被刪除或取代</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">刪除此備份檔案</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

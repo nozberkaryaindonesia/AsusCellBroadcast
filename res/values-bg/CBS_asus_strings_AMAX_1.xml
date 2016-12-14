@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_cell_broadcasts" description="Text for list view when empty (no broadcasts)" maxwidth="200">Няма активни предупреждения за Вашия регион. Може да промените предпочитанията си в Настройки на предупреждения.</string>
+</resources>

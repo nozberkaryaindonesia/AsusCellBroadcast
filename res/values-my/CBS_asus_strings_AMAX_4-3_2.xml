@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="general_sms_cb_label" description="Cell broadcast settings title" maxwidth="30">SMS ဆဲလ်ထုတ်လွှင့်မှု </string>
+  <string name="general_sms_cb_settings" description="SMS Cell broadcast settings title" maxwidth="30">SMS ဆဲလ်ထုတ်လွှင့်မှု ဆက်တင်များ</string>
+    <!-- CMAS & SMS-CB -->
+    <string name="cmas_title" description="" maxwidth="-1">အရေးပေါ် သတိပေးနှိုးဆော်ချက်များ</string>
+    <string name="gsm_umts_cmas_summary" description="" maxwidth="-1">အရေးပေါ် သတိပေးနှိုးဆော်ချက်များကို ဖွဲ့စည်းတည်ဆောက်ပါ</string>
+    <string name="smscb_title" description="" maxwidth="-1">SMS ဆဲလ် ထုတ်လွှင့်ချက်</string>
+    <string name="gsm_umts_smscb_summary" description="" maxwidth="-1">SMS ဆဲလ် ထုတ်လွှင့်ချက်ကို ဖွဲ့စည်းတည်ဆောက်ပါ</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="menu_mark_all_read" description="This is a an option in the Conversation List for mark all unread messages as read [MAX=20]" maxwidth="">Segna tutto come letto</string>
+	<string name="add_channel_id_dialog_title" description="Add Cell Broadcast channel ID dialog title" maxwidth="-1">Aggiungi nuovo ID</string>
+    <string name="edit_channel_id_dialog_title" description="Edit Cell Broadcast channel ID dialog title" maxwidth="-1">Modifica ID</string>
+    <string name="del_channel_id_dialog_title" description="Delete Cell Broadcast channel ID dialog title" maxwidth="-1">Rimuovi ID</string>
+    <string name="channel_id_dialog_message" description="Cell Broadcast channel dialog message" maxwidth="-1">ID canale:</string>
+    <string name="err_input_was_null" description="Input invalid value toast message" maxwidth="-1">Inserire un numero per il canale che sia compreso fra 0 e 999.</string>
+    <string name="err_input_was_not_num" description="Input invalid value toast message" maxwidth="-1">Inserire un numero.</string>
+    <string name="err_input_was_existed" description="Input invalid value toast message" maxwidth="-1">"Questo canale è già presente nell'elenco dei preferiti."</string>
+    <string name="progress_dialog_updating" description="A progress bar title when Enable/Disable a Cell Broadcast Channel [MAX=30]" maxwidth="">Aggiornamento elenco ID canale...</string>
+	<string name="cb_sms_settings" description="A Category description text of Cell Broadcast Setting [MAX=30]" maxwidth="">Impostazioni SMS Cell Broadcast</string>
+</resources>

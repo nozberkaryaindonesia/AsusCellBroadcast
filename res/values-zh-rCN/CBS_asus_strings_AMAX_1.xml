@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_cell_broadcasts" description="Text for list view when empty (no broadcasts)" maxwidth="200">"您的区域目前没有警示。您可以使用选单中的[设定]选项变更[警示]设定。"</string>
+</resources>

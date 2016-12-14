@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="err_set_failed_toast" description="Enable/Disable failing toast message" maxwidth="-1">"<xliff:g id="enable_state">%</xliff:g> ID:<xliff:g id="channel_id">%</xliff:g> فشل!  يُرجى المحاولة مرة أخرى لاحقًا."</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">"Успешно копиране на SMS  съобщения в SIM."</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">"Неуспешно копиране на SMS  съобщения в SIM."</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"Успешно копиране на SMS съобщения от SIM към телефона."</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"Неуспешно копиране на SMS съобщения от SIM към телефона."</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">"Няма открита SIM карта Поставете SIM карта."</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">"ПРЕДУПРЕЖДЕНИЕ: Не премахвайте SIM картата докато се зарежда."</string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">Изтриване на няколко</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">Избраните съобщения ще бъдат изтрити.</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">Архивиране на SMS съобщения</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">Възстановяване на SMS съобщения</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">Възстановяване на SMS настройки</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">Изчистване на всички (получени, изпратени, чернови)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">Запази непрочетените съобщения</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">Запази всички (филтриране на дублирани съобщения)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">Въведете име на архивния файл</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">"Архивиране на получени, изпратени и чернови на SMS съобщения във вътрешната памет на устройството."</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">Няма SMS съобщения за архивиране.</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">Няма архивирани файлове. Първо архивирайте своите SMS съобщения.</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">Някои данни ще бъдат изтрити и заменени.</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">Изтриване на този архивен файл</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

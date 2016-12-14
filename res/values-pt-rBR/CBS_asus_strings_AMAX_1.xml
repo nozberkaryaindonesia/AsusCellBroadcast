@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_cell_broadcasts" description="Text for list view when empty (no broadcasts)" maxwidth="200">"Não há alertas ativos em sua área. Você pode alterar a preferência em configurações de Alerta."</string>
+    <!-- CMAS & SMS-CB -->
+    <string name="cmas_title" description="" maxwidth="-1">Alertas de emergência</string>
+    <string name="gsm_umts_cmas_summary" description="" maxwidth="-1">Configurar alertas de emergência</string>
+    <string name="smscb_title" description="" maxwidth="-1">Mensagens da rede SMS</string>
+    <string name="gsm_umts_smscb_summary" description="" maxwidth="-1">Configurar mensagens da rede SMS</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="att_emergency_alert_title" description="att sku for emergency alert activity title" maxwidth="20">"هشدارهای اضطراری"</string>
+    <string name="att_presidential_alerts_title" description="att sku for presidential alert preference title" maxwidth="30">"هشدارهای ریاست جمهوری"</string>
+    <string name="att_presidential_alerts_summery" description="att sku for presidential alert preference summery" maxwidth="-1">"هشدارهای ریاست جمهوری همیشه ارائه می شوند"</string>
+    <string name="att_extreme_alerts_title" description="att sku for Extreme alert preference title" maxwidth="30">"هشدارهای شدید"</string>
+    <string name="att_severe_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">"هشدارهای جدی"</string>
+    <string name="att_amber_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">"هشدارهای AMBER (کودک ربایی)"</string>
+    <string name="att_emergency_alerts_preview_category" description="att sku for emergency alerts preview preference category title" maxwidth="30">"پیش نمایش هشدار اضطراری"</string>
+    <string name="att_emergency_alerts_alert_sound_preview_title" description="att sku for emergency alerts sound preview preference title" maxwidth="30">"صدای هشدار"</string>
+    <string name="att_emergency_alerts_alert_vibration_preview_title" description="att sku for emergency alerts vibration preview preference title" maxwidth="30">"لرزش هشدار"</string>
+</resources>

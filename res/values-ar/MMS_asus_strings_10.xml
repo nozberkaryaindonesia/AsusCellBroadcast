@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">"تم نسخ رسائل SMS بنجاح إلى بطاقة SIM."</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">"تعذر نسخ رسائل SMS إلى بطاقة SIM."</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"تم نسخ رسائل SMS بنجاح من بطاقة SIM إلى الهاتف."</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"تعذر نسخ رسائل SMS من بطاقة SIM إلى الهاتف."</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">"لم يتم اكتشاف بطاقة SIM. فضلًا أدخل بطاقة SIM."</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">"تحذير: لا تقم بإزالة بطاقة SIM أثناء قيامها بالتحميل."</string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">حذف متعدد</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">سيتم حذف الرسائل المحددة.</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">نسخ احتياطي لرسائل SMS</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">استعادة رسائل SMS</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">استعادة إعدادات SMS</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">مسح الكل (المستلمة، المرسلة، المسودات)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">الإبقاء على الرسائل غير المقروءة</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">الإبقاء على الكل (استبعاد الرسائل المكررة)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">أدخل اسم الملف الاحتياطي</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">النسخ الاحتياطي لرسائل SMS المستلمة والمرسلة والمسودات في التخزين الداخلي للجهاز.</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">لا توجد رسائل SMS للنسخ الاحتياطي.</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">لا توجد ملفات نسخ احتياطي. يُرجى عمل نسخ احتياطي لرسائل SMS أولًا.</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">سيتم حذف بعض البيانات واستبدالها.</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">حذف هذا الملف الاحتياطي</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

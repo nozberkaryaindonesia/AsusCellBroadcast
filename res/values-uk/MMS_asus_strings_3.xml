@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="err_set_failed_toast" description="Enable/Disable failing toast message" maxwidth="-1">"Не вдалося <xliff:g id="enable_state">%s</xliff:g> <xliff:g id="channel_id">%s</xliff:g>! Будь ласка, повторіть спробу пізніше."</string>
+</resources>

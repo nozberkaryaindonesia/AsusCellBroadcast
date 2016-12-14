@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="general_sms_cb_label" description="Cell broadcast settings title" maxwidth="30">Diffusion cellulaire</string>
+  <string name="general_sms_cb_settings" description="SMS Cell broadcast settings title" maxwidth="30">Options de diffusion cellulaire</string>
+</resources>

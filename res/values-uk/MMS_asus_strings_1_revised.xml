@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="attach_vcard" description="This is a an option in the Attach dialog for user to select vCard to attach" maxwidth="">vКартка</string>
+	<string name="attach_vcalendar" description="This is a an option in the Attach dialog for user to select vCalendar to attach" maxwidth="">vКалендар</string>
+	<string name="smsc_setting" description="MMS smsc setting option entry title" maxwidth="-1">Налаштування SMSC</string>
+	<string name="smsc_summary" description="MMS smsc setting option entry description" maxwidth="-1">Встановіть і отримайте номер SMSC</string>
+    <string name="smsc_prompt" description="MMS smsc setting prompt in edit text zone" maxwidth="-1">Номер SMSC:</string>
+    <string name="smsc_updating_null" description="MMS smsc setting toast when user input null string" maxwidth="-1">Поле номера SMSC не може залишатися порожнім. Будь ласка, введіть дійсний номер.</string>
+    <string name="smsc_updating_fail" description="MMS smsc setting toast when user updating SMSC number fail" maxwidth="-1">Не поновлено номер SMSC.</string>
+	<string name="smsc_fetch_fail" description="MMS smsc setting prompt when get intial SMSC number fail" maxwidth="-1">Не отримано номер SMSC.</string>
+	<!-- MMS priority setting strings -->
+    <string name="pref_title_mms_priority" description="Mms setting option entry title for MMS priority levels" maxwidth="-1">Встановити пріоритет MMS</string>
+    <string name="pref_summary_mms_priority" description="Mms setting option entry description for MMS priority levels" maxwidth="-1">Встановити рівень пріоритету для надсилання повідомлення MMS</string>
+    <!-- MMS max size setting strings -->
+    <string name="pref_title_mms_max_size" description="Mms setting option entry title for MMS max size" maxwidth="-1">Встановити макс. розмір MMS</string>
+    <string name="pref_summary_mms_max_size" description="Mms setting option entry description for MMS max size" maxwidth="-1">Встановити макс. розмір для надсилання повідомлень MMS.</string>
+    <!-- ASUS END, dion_yang -->
+	<string-array name="prefEntries_mms_priority" description="MMS sending priority level item" maxwidth="-1">
+        <!-- LOW priority -->
+        <item>Низький</item>
+        <!-- NORMAL priority -->
+        <item>Звичайний</item>
+        <!-- HIGH priority --> 
+        <item>Високий</item>
+    </string-array>	
+	<!-- GSM/UMTS Cell broadcast SMS strings -->
+    <string name="cell_broadcast_sms_title" description="Cell Broadcast Setting program title" maxwidth="-1">Стільникова трансляція</string>
+    <string name="gsm_umts_cell_broadcast_sms_title" description="MMS setting option entry title for Cell broadcast setting" maxwidth="-1">Стільникова трансляція GSM/UMTS</string>
+    <string name="gsm_umts_cell_broadcast_sms_summary" description="MMS setting option entry description for Cell broadcast setting" maxwidth="-1">Конфігурація повідомлень GSM/UMTS СВ</string>
+    <string name="area_info_msgs" description="Text prifix for Cell Broadcast info message channel id" maxwidth="">Місц. інфо-канал</string>
+    <!-- Add custom Channel setting dialog for user -->
+    <string name="add_channel_title" description="Cell Broadcast channel ID setting option entry title" maxwidth="-1">Додати ID каналу</string>
+	<string name="list_language_summary" description="Cell Broadcast channel Language setting option entry description" maxwidth="-1">Вибрати мову новин</string>
+	<string-array name="list_gsm_language_entries" description="Cell broadcast Language Filter list" maxwidth="">
+        <item>Нім.</item>
+        <item>Англ.</item>
+        <item>Італ.</item>
+        <item>Франц.</item>
+        <item>Ісп.</item>
+        <item>Гол.</item>
+        <item>Швед.</item>
+		<item>Дат.</item>
+		<item>Португ.</item>
+		<item>Фінська</item>
+		<item>Норв.</item>
+		<item>Грец.</item>
+		<item>Турец.</item>
+		<item>Угорська</item>
+		<item>Пол.</item>
+		<item>Невказана мова</item>
+    </string-array>
+	<!-- New supplement of String Table below-->
+	<!--<string name="set_gsm_broadcast_activation" description="Set Cell Broadcast Activation" maxwidth="-1">Встановити активацію стільникової трансляції</string>-->
+</resources>

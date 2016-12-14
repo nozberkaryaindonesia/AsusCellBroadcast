@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="menu_mark_all_read" description="This is a an option in the Conversation List for mark all unread messages as read [MAX=20]" maxwidth="">Merkitse kaikki luetuiksi</string>
+	<string name="add_channel_id_dialog_title" description="Add Cell Broadcast channel ID dialog title" maxwidth="-1">Lisää uusi tunnus</string>
+    <string name="edit_channel_id_dialog_title" description="Edit Cell Broadcast channel ID dialog title" maxwidth="-1">Muokkaa tunnusta</string>
+    <string name="del_channel_id_dialog_title" description="Delete Cell Broadcast channel ID dialog title" maxwidth="-1">"Poista tunnus"</string>
+    <string name="channel_id_dialog_message" description="Cell Broadcast channel dialog message" maxwidth="-1">Kanavatunnus:</string>
+    <string name="err_input_was_null" description="Input invalid value toast message" maxwidth="-1">Anna kanavanumero välillä 0–999.</string>
+    <string name="err_input_was_not_num" description="Input invalid value toast message" maxwidth="-1">Näppäile numero.</string>
+    <string name="err_input_was_existed" description="Input invalid value toast message" maxwidth="-1">Kanava on jo suosikkilistallasi.</string>
+    <string name="progress_dialog_updating" description="A progress bar title when Enable/Disable a Cell Broadcast Channel [MAX=30]" maxwidth="">Päivitetään kanavatunnusluetteloa...</string>
+	<string name="cb_sms_settings" description="A Category description text of Cell Broadcast Setting [MAX=30]" maxwidth="">Cell Broadcastin SMS-asetukset</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">"SMS üzenetek sikeresen másolva a SIM-re."</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">"SMS üzenetek sikertelen másolása a SIM-re."</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"SMS üzenetek sikeresen másolva a SIM-ről a telefonra."</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"SMS üzenetek sikertelen másolása a SIM-ről a telefonra."</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">"Nem észlelhető SIM-kártya. Helyezzen be egy SIM-kártyát."</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">"FIGYELEM! Ne vegye ki a SIM-kártyát betöltés közben."</string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">Többszörös törlés</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">A kijelölt üzenetek törlésre kerülnek.</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">SMS-üzenetek biztonsági mentése</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">SMS-üzenetek visszaállítása</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">SMS beállítások visszaállítása</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">Összes törlése (fogadott, elküldött, piszkozatok)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">Nem olvasott üzenet(ek) megőrzése</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">Összes megőrzése (duplikált üzenetek kiszűrése)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">Adja meg a mentésfájl nevét</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">A fogadott, elküldött és piszkozat SMS-üzenetek biztonsági mentése az eszköz belső tárolójában.</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">Nincs SMS-üzenet biztonsági mentéshez.</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">Nincsenek mentésfájlok. Előbb készítsen biztonsági mentést az SMS-üzeneteiről.</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">Bizonyos adatok törlődnek és lecserélésre kerülnek.</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">A biztonsági mentésfájl törlése</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

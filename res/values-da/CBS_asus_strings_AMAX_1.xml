@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_cell_broadcasts" description="Text for list view when empty (no broadcasts)" maxwidth="200">Der er ingen aktive alarmer i dit område. Du kan ændre dine præferencer i alarmindstillingerne.</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="attach_vcard" description="This is a an option in the Attach dialog for user to select vCard to attach" maxwidth="">vCard</string>
+	<string name="attach_vcalendar" description="This is a an option in the Attach dialog for user to select vCalendar to attach" maxwidth="">vCalendar</string>
+	<string name="smsc_setting" description="MMS smsc setting option entry title" maxwidth="-1">Setare SMSC</string>
+	<string name="smsc_summary" description="MMS smsc setting option entry description" maxwidth="-1">Setaţi şi obţineţi numărul SMSC</string>
+    <string name="smsc_prompt" description="MMS smsc setting prompt in edit text zone" maxwidth="-1">Număr SMSC:</string>
+    <string name="smsc_updating_null" description="MMS smsc setting toast when user input null string" maxwidth="-1">Câmpul pentru numărul SMSC nu poate fi gol. Introduceţi un număr valid.</string>
+    <string name="smsc_updating_fail" description="MMS smsc setting toast when user updating SMSC number fail" maxwidth="-1">Actualizarea numărului SMSC a eşuat.</string>
+	<string name="smsc_fetch_fail" description="MMS smsc setting prompt when get intial SMSC number fail" maxwidth="-1">Obţinerea numărului SMSC a eşuat.</string>
+	<!-- MMS priority setting strings -->
+    <string name="pref_title_mms_priority" description="Mms setting option entry title for MMS priority levels" maxwidth="-1">Setare prioritate MMS</string>
+    <string name="pref_summary_mms_priority" description="Mms setting option entry description for MMS priority levels" maxwidth="-1">Setaţi nivelul de prioritate pentru trimiterea mesajelor MMS.</string>
+    <!-- MMS max size setting strings -->
+    <string name="pref_title_mms_max_size" description="Mms setting option entry title for MMS max size" maxwidth="-1">Setare dimensiune maximă MMS</string>
+    <string name="pref_summary_mms_max_size" description="Mms setting option entry description for MMS max size" maxwidth="-1">Setaţi dimensiunea maximă pentru trimiterea mesajelor MMS.</string>
+    <!-- ASUS END, dion_yang -->
+	<string-array name="prefEntries_mms_priority" description="MMS sending priority level item" maxwidth="-1">
+        <!-- LOW priority -->
+        <item>Scăzută</item>
+        <!-- NORMAL priority -->
+        <item>Normală</item>
+        <!-- HIGH priority --> 
+        <item>Ridicată</item>
+    </string-array>	
+	<!-- GSM/UMTS Cell broadcast SMS strings -->
+    <string name="cell_broadcast_sms_title" description="Cell Broadcast Setting program title" maxwidth="-1">Transmisiune celulară</string>
+    <string name="gsm_umts_cell_broadcast_sms_title" description="MMS setting option entry title for Cell broadcast setting" maxwidth="-1">Transmisiune celulară GSM/UMTS</string>
+    <string name="gsm_umts_cell_broadcast_sms_summary" description="MMS setting option entry description for Cell broadcast setting" maxwidth="-1">Configurare mesaje pentru transmisiunea celulară GSM/UMTS</string>
+    <string name="area_info_msgs" description="Text prifix for Cell Broadcast info message channel id" maxwidth="">Canal informaţii zonale</string>
+    <!-- Add custom Channel setting dialog for user -->
+    <string name="add_channel_title" description="Cell Broadcast channel ID setting option entry title" maxwidth="-1">Adăugare ID canal</string>
+	<string name="list_language_summary" description="Cell Broadcast channel Language setting option entry description" maxwidth="-1">Selectaţi limba pentru ştiri</string>
+	<string-array name="list_gsm_language_entries" description="Cell broadcast Language Filter list" maxwidth="">
+        <item>Germană</item>
+        <item>Engleză</item>
+        <item>Italiană</item>
+        <item>Franceză</item>
+        <item>Spaniolă</item>
+        <item>Olandeză</item>
+        <item>Suedeză</item>
+		<item>Daneză</item>
+		<item>Portugheză</item>
+		<item>Finlandeză</item>
+		<item>Norvegiană</item>
+		<item>Greacă</item>
+		<item>Turcă</item>
+		<item>Maghiară</item>
+		<item>Poloneză</item>
+		<item>Limbă nespecificată</item>
+    </string-array>
+	<!-- New supplement of String Table below-->
+	<!--<string name="set_gsm_broadcast_activation" description="Set Cell Broadcast Activation" maxwidth="-1">Setare activare transmisiune celulară</string>-->
+</resources>

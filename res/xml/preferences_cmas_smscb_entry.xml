@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="pref_general_settings"
+        android:title="@string/app_label">
+
+        <PreferenceCategory
+            android:key="pref_key_cmas_settings"
+            android:title="@string/cmas_title">
+            <Preference
+                android:key="pref_key_gsm_umts_cmas"
+                android:summary="@string/gsm_umts_cmas_summary"
+                android:title="@string/cmas_title" />
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="pref_key_smscb_settings"
+            android:title="@string/smscb_title">
+            <Preference
+                android:key="pref_key_gsm_umts_smscb"
+                android:summary="@string/gsm_umts_smscb_summary"
+                android:title="@string/smscb_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>

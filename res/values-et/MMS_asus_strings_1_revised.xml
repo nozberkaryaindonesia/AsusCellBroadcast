@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="attach_vcard" description="This is a an option in the Attach dialog for user to select vCard to attach" maxwidth="">vCard</string>
+	<string name="attach_vcalendar" description="This is a an option in the Attach dialog for user to select vCalendar to attach" maxwidth="">vCalendar</string>
+	<string name="smsc_setting" description="MMS smsc setting option entry title" maxwidth="-1">SMSC säte</string>
+	<string name="smsc_summary" description="MMS smsc setting option entry description" maxwidth="-1">Määra ja esita SMSC number</string>
+    <string name="smsc_prompt" description="MMS smsc setting prompt in edit text zone" maxwidth="-1">SMSC number:</string>
+    <string name="smsc_updating_null" description="MMS smsc setting toast when user input null string" maxwidth="-1">SMSC numbri väli ei saa olla tühi. Sisestage kehtiv number.</string>
+    <string name="smsc_updating_fail" description="MMS smsc setting toast when user updating SMSC number fail" maxwidth="-1">SMSC numbri värskendamine nurjus.</string>
+	<string name="smsc_fetch_fail" description="MMS smsc setting prompt when get intial SMSC number fail" maxwidth="-1">SMSC numbri esitamine nurjus.</string>
+	<!-- MMS priority setting strings -->
+    <string name="pref_title_mms_priority" description="Mms setting option entry title for MMS priority levels" maxwidth="-1">Määra MMS-i eelistus</string>
+    <string name="pref_summary_mms_priority" description="Mms setting option entry description for MMS priority levels" maxwidth="-1">Määra MMS-sõnumite saatmise eelistuste tase</string>
+    <!-- MMS max size setting strings -->
+    <string name="pref_title_mms_max_size" description="Mms setting option entry title for MMS max size" maxwidth="-1">Määra MMS-i maksimaalsuurus</string>
+    <string name="pref_summary_mms_max_size" description="Mms setting option entry description for MMS max size" maxwidth="-1">Määra maksimaalsuurus MMS-sõnumite saatmiseks.</string>
+    <!-- ASUS END, dion_yang -->
+	<string-array name="prefEntries_mms_priority" description="MMS sending priority level item" maxwidth="-1">
+        <!-- LOW priority -->
+        <item>Madal</item>
+        <!-- NORMAL priority -->
+        <item>Tavaline</item>
+        <!-- HIGH priority --> 
+        <item>Kõrge</item>
+    </string-array>	
+	<!-- GSM/UMTS Cell broadcast SMS strings -->
+    <string name="cell_broadcast_sms_title" description="Cell Broadcast Setting program title" maxwidth="-1">Kärjeteade</string>
+    <string name="gsm_umts_cell_broadcast_sms_title" description="MMS setting option entry title for Cell broadcast setting" maxwidth="-1">GSM/UMTS kärjeteade</string>
+    <string name="gsm_umts_cell_broadcast_sms_summary" description="MMS setting option entry description for Cell broadcast setting" maxwidth="-1">Konfigureerige GSM/UMTS kärjeteated</string>
+    <string name="area_info_msgs" description="Text prifix for Cell Broadcast info message channel id" maxwidth="">Piirkonnateabe kanal</string>
+    <!-- Add custom Channel setting dialog for user -->
+    <string name="add_channel_title" description="Cell Broadcast channel ID setting option entry title" maxwidth="-1">Lisage kanali ID</string>
+	<string name="list_language_summary" description="Cell Broadcast channel Language setting option entry description" maxwidth="-1">Valige uudiste keel</string>
+	<string-array name="list_gsm_language_entries" description="Cell broadcast Language Filter list" maxwidth="">
+        <item>Saksa</item>
+        <item>Inglise</item>
+        <item>Itaalia</item>
+        <item>Prantsuse</item>
+        <item>Hispaania</item>
+        <item>Hollandi</item>
+        <item>Rootsi</item>
+		<item>Taani</item>
+		<item>Portugali</item>
+		<item>Soome</item>
+		<item>Norra</item>
+		<item>Kreeka</item>
+		<item>Türgi</item>
+		<item>Ungari</item>
+		<item>Poola</item>
+		<item>Määramata keel</item>
+    </string-array>
+	<!-- New supplement of String Table below-->
+	<!--<string name="set_gsm_broadcast_activation" description="Set Cell Broadcast Activation" maxwidth="-1">Määra kärjeteadete aktiveerimine</string> -->
+</resources>

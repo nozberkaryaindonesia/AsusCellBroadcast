@@ -1,0 +1,12 @@
+<com.android.cellbroadcastreceiver.zen.AsusFullScreenLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.android.cellbroadcastreceiver.MyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</com.android.cellbroadcastreceiver.zen.AsusFullScreenLinearLayout>

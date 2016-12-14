@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_sms_cb_label" description="Cell broadcast settings title" maxwidth="30">訊息廣播服務</string>
+    <string name="general_sms_cb_settings" description="SMS Cell broadcast settings title" maxwidth="30">訊息廣播服務設定</string>
+</resources>

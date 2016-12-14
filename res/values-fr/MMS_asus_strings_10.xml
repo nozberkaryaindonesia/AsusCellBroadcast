@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">Copie du message SMS sur la carte SIM réussie</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">Échec de la copie du message SMS sur la carte SIM</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">Copie du message SMS de la carte SIM vers le téléphone réussie</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">Échec de la copie du message SMS de la carte SIM vers le téléphone</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">Carte SIM non détectée. Veuillez insérer une carte SIM.</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">AVERTISSEMENT : Ne retirez pas la carte SIM lors de son chargement.</string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">Suppression multiple</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">Les messages sélectionnés seront supprimés.</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">Sauvegarde de messages SMS</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">Restauration de messages SMS</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">Paramètres</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">Tout supprimer (reçus, envoyés, brouillons)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">Conserver les messages non lus</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">Tout conserver (supprimer les messages dupliqués)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">Spécifiez le nom du fichier de sauvegarde</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">Sauvegarde des messages SMS reçus, envoyés et des brouillons sur l\'espace de stockage interne.</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">Aucuns messages SMS à sauvegarder.</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">Aucuns fichiers de sauvegarde trouvés. Veuillez d\'abord sauvegarder vos messages SMS.</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">Certaines données seront supprimées et remplacées.</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">Supprimer ce fichier de sauvegarde</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

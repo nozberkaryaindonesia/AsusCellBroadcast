@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="toast_copy_to_sim_successful" description="Composer message toast for copy to sim function" maxwidth="-1">"SMS 메시지가 SIM에 성공적으로 복사되었습니다."</string>
+	<string name="toast_copy_to_sim_fail" description="Composer message toast for copy to sim function" maxwidth="-1">"SMS 메시지를 SIM에 복사하는 데 실패했습니다."</string>
+	<string name="toast_copy_to_phone_successful" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"SMS 메시지가 SIM에서 전화기로 성공적으로 복사되었습니다."</string>
+	<string name="toast_copy_to_phone_fail" description="Manage SIM message toast for copy to phone memory function" maxwidth="-1">"SMS 메시지를 SIM에서 전화기로 복사하는 데 실패했습니다."</string>
+	<string name="toast_without_sim_toast" description="No Sim warning toast" maxwidth="-1">"SIM 카드가 감지되지 않았습니다. SIM 카드를 삽입하십시오."</string>
+	<string name="toast_sim_status_error_toast" description="No Sim warning toast" maxwidth="-1">"경고: 로드하는 중 SIM을 제거하지 마십시오."</string>
+
+	<!-- Asus Jenpang begin: multiple delete messages in a thread -->
+    <string name="multi_delete_messages" description="Multiple messages deletion menu option" maxwidth="-1">여러 개 삭제</string>
+    <string name="multi_delete_confirm" description="Multiple messages deletion confirm message" maxwidth="-1">선택한 메시지가 삭제됩니다.</string>
+    <string name="menu_backup_sms" description="Back up SMS menu option" maxwidth="-1">SMS 메시지 백업</string>
+    <string name="menu_restore_sms" description="Restore SMS menu option" maxwidth="-1">SMS 메시지 복원</string>
+    <string name="menu_restore_sms_settings" description="Restore SMS settings title" maxwidth="-1">SMS 설정 복원</string>
+    <string name="menu_restore_sms_settings_all_clear" description="Restore SMS settings option that clears all messages before restore" maxwidth="-1">모두 지우기(수신, 발신, 초안)</string>
+    <string name="menu_restore_sms_settings_keep_unread" description="Restore SMS settings option that keeps unread messages and deletes the remaining messages before restore" maxwidth="-1">읽지 않은 메시지 보관</string>
+    <string name="menu_restore_sms_settings_remove_duplicate" description="Restore SMS settings option that keeps all messages but remove duplicates before restore" maxwidth="-1">모두 보관(중복 메시지 필터링 후 제거)</string>
+    <string name="backup_sms_file_name" description="Enter SMS backup file name message" maxwidth="-1">백업 파일 이름 입력</string>
+    <string name="backup_sms_storage_description" description="Backup SMS description message" maxwidth="-1">수신, 발신 및 초안 SMS 메시지를 장치의 내부 저장소에 백업하십시오.</string>
+    <string name="backup_sms_error_empty" description="Backup SMS error message" maxwidth="-1">백업할 SMS 메시지가 없습니다.</string>
+    <string name="restore_sms_error_empty" description="Restore SMS error message" maxwidth="-1">백업 파일이 없습니다. 먼저 SMS 메시지를 백업하십시오.</string>
+    <string name="restore_sms_confirm" description="Restore SMS confirm description message" maxwidth="-1">일부 데이터가 삭제되고 교체됩니다.</string>
+    <string name="delete_sms_backup_confirm" description="Delete SMS restore file confirm message" maxwidth="-1">이 백업 파일 삭제</string>
+	<!-- Asus Jenpang end: multiple delete messages in a thread -->
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="att_emergency_alert_title" description="att sku for emergency alert activity title" maxwidth="20">Alerty o zagrożeniu</string>
+    <string name="att_presidential_alerts_title" description="att sku for presidential alert preference title" maxwidth="30">Alerty prezydenckie</string>
+    <string name="att_presidential_alerts_summery" description="att sku for presidential alert preference summery" maxwidth="-1">Alerty prezydenckie są zawsze przedstawiane</string>
+    <string name="att_extreme_alerts_title" description="att sku for Extreme alert preference title" maxwidth="30">Alerty o ekstremal. zagrożeniu</string>
+    <string name="att_severe_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">Alerty o poważnym zagrożeniu</string>
+    <string name="att_amber_alerts_title" description="att sku for Severe alert preference title" maxwidth="30">Bursztynowe alerty</string>
+    <string name="att_emergency_alerts_preview_category" description="att sku for emergency alerts preview preference category title" maxwidth="30">PODGLĄD ALERTU O ZAGROŻENIU</string>
+    <string name="att_emergency_alerts_alert_sound_preview_title" description="att sku for emergency alerts sound preview preference title" maxwidth="30">Dźwięk alertu</string>
+    <string name="att_emergency_alerts_alert_vibration_preview_title" description="att sku for emergency alerts vibration preview preference title" maxwidth="30">Wibracja alertu</string>
+</resources>

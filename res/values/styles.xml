@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- This must be a fullscreen theme for the alarm to be able to turn the screen on. -->
+    <style name="AlertFullScreenTheme" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar" />
+    <style name="AlertDialogTheme" parent="android:style/Theme.DeviceDefault.Light.Dialog" />
+
+    <style name="AsusZenTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/AsusActionBar</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/asus_window_background</item>
+    </style>
+
+    <style name="AsusZenTheme.OneLineTitle">
+        <item name="android:actionBarStyle">@style/AsusActionBar.OneLineTitle</item>
+    </style>
+
+    <style name="AsusZenTheme.OneLineTitle.NoHomeIcon">
+        <item name="android:actionBarStyle">@style/AsusActionBar.OneLineTitle.NoHomeIcon</item>
+    </style>
+
+    <style name="AsusActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/asus_status_action_bar_background</item>
+        <item name="android:backgroundSplit">@color/asus_status_action_bar_background</item>
+    </style>
+
+    <style name="AsusActionBar.OneLineTitle">
+        <item name="android:titleTextStyle">@style/AsusActionBarOneLineTitleTitleTextAppearance</item>
+    </style>
+
+    <style name="AsusActionBar.OneLineTitle.NoHomeIcon">
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="AsusActionBarOneLineTitleTitleTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:fontFamily">sans-serif</item>
+        <!--<item name="android:textColor">@color/asus_action_bar_title_text</item>-->
+        <item name="android:textColor">@color/asus_message_status_bar_color</item>
+        <item name="android:textSize">@dimen/asus_action_bar_one_line_title_title_text</item>
+    </style>
+
+    <style name="AsusActionBarTabTextStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabText">
+        <item name="android:textSize">@dimen/asus_action_bar_tab_text_style_text_size</item>
+    </style>
+
+    <style name="MmsColorfulTheme" parent="AsusZenTheme.OneLineTitle.NoHomeIcon">
+        <item name="android:colorAccent">@color/asus_message_status_bar_color</item>
+    </style>
+</resources>
