@@ -1,0 +1,174 @@
+commit d1e2e2d75f9734ef3150d170cf4a2ac01449e671
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Thu Dec 1 20:17:23 2016 +0800
+
+    [Subject]
+    [D281L_JP][AsusCellBroadcast]ETWS相关的几个频道，都弹对话框处理
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    bug #144774
+    [Ripple Effect]
+    N/A
+    [Solution]
+    cbm.getServiceCategory() >= 4352 && cbm.getServiceCategory() <= 4356
+    [Project]
+    D281L
+    
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java
+    
+    Change-Id: I775a26b7247bd9c76edf5112f3d8cd2665540cb3
+
+commit 7091fa30375340a68eb3fabfc22e8d3d7f0910f5
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Tue Nov 8 14:44:36 2016 +0800
+
+    [Subject]
+    [D281L_WW][AsusCellBroadcast] 修正CB默认关闭的这种情况
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    Bug #132168
+    [Ripple Effect]
+    N/A
+    [Solution]
+    Add code
+    [Project]
+    E281L
+    
+    Change-Id: I86eb17ec74d3fa5cfb5a271905c497344a7209d8
+
+commit c134df65a064ea9eaa49ec1289fa65881df1a8d4
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Mon Oct 31 11:40:59 2016 +0800
+
+    [Subject]
+    [E281/D281L][AsusCellBroadcast]【巴西外场测试】ZC520TL popup receiving Cell Broadcast message and storing.
+    [Bug Number/CSP Number/Enhancement/New Feature]
+     Feature #119298 && Bug #136432
+    [Ripple Effect]
+     N/A
+    [Solution]
+     N/A
+    [Project]
+    E281L
+    
+    Change-Id: I71bc580f769034071571f8c5edde087a4e71e307
+
+commit 5220ae367d62aedcb52ab567dff5229d44c631e3
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Wed Oct 26 14:24:08 2016 +0800
+
+    [Subject]
+    [E283L_TW][AsusCellBroadCast] ZC520TL have Cell Broadcast enabled on channel 50 by default in Brazil.
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    Bug #136426
+    [Ripple Effect]
+    N/A
+    [Solution]
+    N/A
+    [Project]
+    E281L
+    
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/BroadcastConfigInstantiatorService.java
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/CellBroadcastUtils.java
+    
+    Change-Id: I021bfd0235beeec1ea0044681f34f749fed9827f
+
+commit e78e28b117a7528d73d1634e1216c0b0eeac60f6
+Author: 熊士贵 <xiongshigui@wind-mobi.com>
+Date:   Fri Sep 30 17:11:37 2016 +0800
+
+    Revert "[Subject] [E281L_WW][AsusCellBroadcast] 参照MTK CMAS频道预置用SmsBroadcastConfigInfo [Bug Number/CSP Number/Enhancement/New Feature] bug 132168 [Ripple Effect] N/A [Solution] N/A [Project] E281"
+    
+    This reverts commit b832302c7072202e3b187aaa529f50042aa12ecf.
+    
+    Change-Id: Ib3132e414695d4ddc7e4049c3d0f6157d8dda2c5
+
+commit b832302c7072202e3b187aaa529f50042aa12ecf
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Thu Sep 29 15:09:26 2016 +0800
+
+    [Subject]
+    [E281L_WW][AsusCellBroadcast] 参照MTK CMAS频道预置用SmsBroadcastConfigInfo
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    bug 132168
+    [Ripple Effect]
+    N/A
+    [Solution]
+    N/A
+    [Project]
+    E281
+    
+    Change-Id: I4a98c3f5aee774db0a7de1c7ea8d0519de47ad9f
+
+commit 37bcc957d645aacfc31ca9e64608d0cf597bb3d7
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Tue Sep 13 20:45:03 2016 +0800
+
+    [Subject]
+    [E281L_TW][AsusCellBroadcast]修正SIM卡拔掉后交换卡槽，小区广播的SIM卡名称不刷新的问题
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    Bug #130431
+    [Ripple Effect]
+    N/A
+    [Solution]
+    N/A
+    [Project]
+    
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/CellBroadcastUtils.java
+    
+    Change-Id: I5133dafee42ec3b923a17bc46f89904ed7f4a5bb
+
+commit 59e4edcc3c1111b8f473ba04e409d587a2a33e3c
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Wed Aug 17 18:07:21 2016 +0800
+
+    [Subject]
+    [E281L_TW][AsusCellBroadcast]Remove disable action from Asus AP or leading to AT> AT+CBSB=1
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    N/A
+    [Ripple Effect]
+    N/A
+    [Solution]
+    N/A
+    [Project]
+    E281L
+    
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/Android.mk
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/GsmBroadcastConfigurator.java
+    
+    Change-Id: Iac5791b43bba193b2a94700073380474c4865327
+
+commit 2e3dc3f4039fd28baf29f90d637b88c053ca99f1
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Mon Aug 15 18:10:50 2016 +0800
+
+    [Subject]
+    [E281L_TW][AsusCellBroadcast] NCC PWS Switch didn't work well.
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    N/A
+    [Ripple Effect]
+    N/A
+    [Solution]
+    N/A
+    [Project]
+    E281L
+    
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/res/values/config.xml
+    	modified:   custom_files/vendor/mediatek/proprietary/packages/apps/AsusCellBroadcast/src/com/android/cellbroadcastreceiver/CellBroadcastAlertService.java
+    
+    Change-Id: I93a4291b9f15bd47fd30e56b100675eff24d1f1c
+
+commit 41814e3d2c18d4a20ffbd934ee486cb75349c6e2
+Author: cenxingcan <cenxingcan@wind-mobi.com>
+Date:   Mon Jul 18 16:26:38 2016 +0800
+
+    [Subject]
+    [E281L_TW][AsusCellBroadcast] Add module AsusCellBroadcast
+    [Bug Number/CSP Number/Enhancement/New Feature]
+    Feature #119298
+    [Ripple Effect]
+    
+    [Solution]
+    
+    [Project]
+    E281L
+    
+    Change-Id: Ia8bbbdf1c29475b9a83eb9e629c21f945df8feba
